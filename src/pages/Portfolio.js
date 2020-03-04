@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import Carousel from "../components/Carousel";
+import Projects from "../components/Projects";
 class Portfolio extends Component {
     render() {
         return (
@@ -22,6 +23,7 @@ class Portfolio extends Component {
                     </p>
                 </Jumbotron>
                 <Carousel></Carousel>
+                <Projects></Projects>
             </div>
         );
     }
