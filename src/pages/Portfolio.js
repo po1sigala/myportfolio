@@ -3,7 +3,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import Carousel from "../components/Carousel";
 import Projects from "../components/Projects";
-import background from "../assets/images/background.jpg";
+
 import "./style.css";
 
 class Portfolio extends Component {

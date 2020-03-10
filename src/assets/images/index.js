@@ -13,7 +13,7 @@ const liri = require("./liri_prompts.JPG");
 const logos = require("./logos.jpg");
 const newsly = require("./newsly.JPG");
 const psychic = require("./psychic.jpg");
-const statsdash = require("./statsdash.JPG");
+const statsdash = require("./reactstatsdash.JPG");
 const sqlstore = require("./SQL_store.JPG");
 
 module.exports = {
