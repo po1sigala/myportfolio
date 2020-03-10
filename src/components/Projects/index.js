@@ -37,14 +37,30 @@ function Projects() {
                 <Cards image={""} title="Newsly" summary=" "></Cards>
             </Row>
             <Row className="Projects col-md-12 col-lg-12 col-sm-12">
-                <Cards title="React Traffic Light" summary="tbd"></Cards>
-                <Cards title="Company redesign" summary="tbd"></Cards>
-                <Cards title="Charged Up" summary="tbd"></Cards>
+                <Cards image={sqlstore} title="Liri" summary=" "></Cards>
+                <Cards image={liri} title="Sql Store" summary=" "></Cards>
             </Row>
             <Row className="Projects col-md-12 col-lg-12 col-sm-12">
-                <Cards title="Gif that" summary="tbd"></Cards>
-                <Cards title="Timed Trivia" summary="tbd"></Cards>
-                <Cards title="memory game" summary="tbd"></Cards>
+                <Cards title="React Traffic Light" summary="tbd"></Cards>
+                <Cards
+                    title="Company redesign"
+                    image={bootstrap}
+                    summary="tbd"
+                ></Cards>
+                <Cards title="Charged Up" image={goku} summary="tbd"></Cards>
+            </Row>
+            <Row className="Projects col-md-12 col-lg-12 col-sm-12">
+                <Cards title="Gif that" image={gify} summary="tbd"></Cards>
+                <Cards
+                    title="Timed Trivia"
+                    image={football}
+                    summary="tbd"
+                ></Cards>
+                <Cards
+                    title="memory game"
+                    image={psychic}
+                    summary="tbd"
+                ></Cards>
             </Row>
         </div>
     );
