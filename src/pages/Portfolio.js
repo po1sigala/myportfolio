@@ -3,10 +3,13 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import Carousel from "../components/Carousel";
 import Projects from "../components/Projects";
+import background from "../assets/images/background.jpg";
+import "./style.css";
+
 class Portfolio extends Component {
     render() {
         return (
-            <div>
+            <div className="portfolio">
                 <Jumbotron>
                     <h1>Get to Know your Next Engineer</h1>
                     <p>
