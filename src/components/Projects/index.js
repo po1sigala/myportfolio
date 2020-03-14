@@ -28,6 +28,8 @@ function Projects() {
                     image={image}
                     title="ViewPoints"
                     summary=" Recreation of Newsly providing full stack capability using React"
+                    siteLink="https://spincheck.herokuapp.com/search"
+                    codeLink="https://github.com/po1sigala/FinalSpin"
                 ></Cards>
             </Row>
             <Row className="Projects col-md-12 col-lg-12 col-sm-12">

@@ -10,8 +10,20 @@ function Cards(props) {
                 <Card.Body>
                     <Card.Title>{props.title}</Card.Title>
                     <Card.Text>{props.summary}</Card.Text>
-                    <Button variant="primary">visit the app</Button>
-                    <Button variant="primary">see the code</Button>
+                    <Button
+                        target="_blank"
+                        href={props.siteLink}
+                        variant="primary"
+                    >
+                        visit the app
+                    </Button>
+                    <Button
+                        target="_blank"
+                        variant="primary"
+                        href={props.codeLink}
+                    >
+                        see the code
+                    </Button>
                 </Card.Body>
             </Card>
         </div>
