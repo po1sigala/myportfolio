@@ -84,7 +84,6 @@ function Projects() {
                     title="Company redesign"
                     image={bootstrap}
                     summary="tbd"
-                      {/*----------------- FIX LATER --------------------------*/}
                     siteLink="https://po1sigala.github.io/premiercare.github.io/"
                     codeLink=""
                 ></Cards>
