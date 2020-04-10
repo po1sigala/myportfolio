@@ -4,7 +4,7 @@ const bootstrap = require("./bootstrap.jpeg");
 const codingvid = require("./coding videos.JPG");
 const dunk = require("./dunk.jpg");
 const football = require("./football.jpg");
-
+const news = require("./news.png");
 const gify = require("./gify.png");
 const goku = require("./goku.jpg");
 const drawing = require("./josh drawing.jpg");
@@ -34,5 +34,6 @@ module.exports = {
     psychic: psychic,
     statsdash: statsdash,
     sqlstore: sqlstore,
-    trafficLight: trafficLight
+    trafficLight: trafficLight,
+    news: news
 };
