@@ -15,6 +15,7 @@ const newsly = require("./newsly.JPG");
 const psychic = require("./psychic.jpg");
 const statsdash = require("./reactstatsdash.JPG");
 const sqlstore = require("./SQL_store.JPG");
+const trafficLight = require("./trafficLight.jpg");
 
 module.exports = {
     algos: algos,
@@ -32,5 +33,6 @@ module.exports = {
     newsly: newsly,
     psychic: psychic,
     statsdash: statsdash,
-    sqlstore: sqlstore
+    sqlstore: sqlstore,
+    trafficLight: trafficLight
 };

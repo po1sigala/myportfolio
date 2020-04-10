@@ -4,6 +4,7 @@ import "./style.css";
 import Row from "react-bootstrap/Row";
 import image from "../../assets/images/newsly.JPG";
 import algos, {
+    trafficLight,
     bootstrap,
     codingvid,
     dunk,
@@ -76,14 +77,15 @@ function Projects() {
                 {/*----------------- FIX LATER --------------------------*/}
                 <Cards
                     title="React Traffic Light"
-                    summary="tbd"
-                    siteLink=""
+                    image={trafficLight}
+                    summary="Front End React app utilizing timers to control an intersection. I also included a button which hits giphy API to return stop and go gifs"
+                    siteLink="http://herokuspin.herokuapp.com/"
                     codeLink=""
                 ></Cards>
                 <Cards
                     title="Company redesign"
                     image={bootstrap}
-                    summary="tbd"
+                    summary=""
                     siteLink="https://po1sigala.github.io/premiercare.github.io/"
                     codeLink=""
                 ></Cards>
