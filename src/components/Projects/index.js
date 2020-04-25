@@ -3,6 +3,7 @@ import Cards from "../Cards";
 import "./style.css";
 import Row from "react-bootstrap/Row";
 import image from "../../assets/images/newsly.JPG";
+import Blurb from "../../components/blurb";
 import algos, {
     trafficLight,
     bootstrap,
@@ -18,17 +19,18 @@ import algos, {
     newsly,
     psychic,
     statsdash,
-    sqlstore
+    sqlstore,
 } from "../../assets/images/index";
 
 function Projects() {
     return (
         <div>
+            <Blurb description="current Projects still WIP"></Blurb>
             <Row className="Projects col-md-12 col-lg-12 col-sm-12">
                 <Cards
                     image={image}
                     title="ViewPoints"
-                    summary=" Recreation of Newsly providing full stack capability using React"
+                    summary="News application using react AJAX and bootstrap."
                     siteLink="https://spincheck.herokuapp.com/search"
                     codeLink="https://github.com/po1sigala/FinalSpin"
                 ></Cards>
@@ -80,21 +82,21 @@ function Projects() {
                     image={trafficLight}
                     summary="Front End React app utilizing timers to control an intersection. I also included a button which hits giphy API to return stop and go gifs"
                     siteLink="http://herokuspin.herokuapp.com/"
-                    codeLink=""
+                    codeLink="https://github.com/po1sigala/reactintersection"
                 ></Cards>
                 <Cards
                     title="memory game"
                     image={psychic}
                     summary="a guessing game I put together using JS and bootstrap"
                     siteLink="https://po1sigala.github.io/Psychic-Game/#"
-                    codeLink=""
+                    codeLink="https://github.com/po1sigala/Psychic-Game"
                 ></Cards>
                 <Cards
                     title="Charged Up"
                     image={goku}
                     summary="Here Ive made another game using JQuery encorporating a few more elements than compared to the Psychic game. "
                     siteLink="https://po1sigala.github.io/chargedUp/"
-                    codeLink=""
+                    codeLink="https://github.com/po1sigala/chargedUp"
                 ></Cards>
             </Row>
             <Row className="Projects col-md-12 col-lg-12 col-sm-12">
@@ -103,14 +105,14 @@ function Projects() {
                     image={gify}
                     summary="using ajax technology this simple application uses jQuery to get related gifs from giphy API and display them. It also allows the user to dynamically create new buttons which query a new gif."
                     siteLink="https://po1sigala.github.io/giphtastic/"
-                    codeLink=""
+                    codeLink="https://github.com/po1sigala/giphtastic"
                 ></Cards>
                 <Cards
                     title="Timed Trivia"
                     image={football}
                     summary="using timer functions and alerts in jQuery this application quizzes the user on NFL trivia."
                     siteLink="https://po1sigala.github.io/triviagame/"
-                    codeLink=""
+                    codeLink="https://github.com/po1sigala/triviagame"
                 ></Cards>
 
                 <Cards
@@ -118,7 +120,7 @@ function Projects() {
                     image={bootstrap}
                     summary="Here I have redesigned a companies website using bootstap. I aimed to improvse responsivenes and simplify it for a better user esperience"
                     siteLink="https://po1sigala.github.io/premiercare.github.io/"
-                    codeLink=""
+                    codeLink="https://github.com/po1sigala/premiercare.github.io"
                 ></Cards>
             </Row>
         </div>
