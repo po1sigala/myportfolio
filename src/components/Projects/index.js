@@ -2,6 +2,7 @@ import React from "react";
 import Cards from "../Cards";
 import "./style.css";
 import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import image from "../../assets/images/newsly.JPG";
 import Blurb from "../../components/blurb";
 import algos, {
@@ -25,8 +26,13 @@ import algos, {
 function Projects() {
     return (
         <div>
-            <Blurb description="current Projects still WIP"></Blurb>
-            <Row className="Projects col-md-12 col-lg-12 col-sm-12">
+            <Row className="Projects">
+                <Col>
+                    <Blurb description="My Current project in development"></Blurb>
+                </Col>
+            </Row>
+
+            <Row>
                 <Cards
                     image={image}
                     title="ViewPoints"
@@ -35,7 +41,10 @@ function Projects() {
                     codeLink="https://github.com/po1sigala/FinalSpin"
                 ></Cards>
             </Row>
-            <Row className="Projects col-md-12 col-lg-12 col-sm-12">
+            <Col>
+                <Blurb description="Featured projects. Full-Stack, Front and Backend works."></Blurb>
+            </Col>
+            <Row className="Projects">
                 <Cards
                     title="StatsIQ"
                     image={dunk}
@@ -75,6 +84,9 @@ function Projects() {
                     codeLink="https://github.com/po1sigala/SQLstore"
                 ></Cards>
             </Row>
+            <Col>
+                <Blurb description="Other works. Learning experiences and early prjects on my web development journey"></Blurb>
+            </Col>
             <Row className="Projects col-md-12 col-lg-12 col-sm-12">
                 {/*----------------- FIX LATER --------------------------*/}
                 <Cards
