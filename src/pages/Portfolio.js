@@ -3,14 +3,14 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import Carousel from "../components/Carousel";
 import Projects from "../components/Projects";
-
+import Blurb from "../components/blurb/index";
 import "./style.css";
 
 class Portfolio extends Component {
     render() {
         return (
             <div className="portfolio">
-                <Jumbotron>
+                <Jumbotron className="jumbo">
                     <h1>Get to Know your Next Engineer</h1>
                     <p>
                         I'm a people person, a JavaScript enthusiast, and an
@@ -25,6 +25,7 @@ class Portfolio extends Component {
                         <Button variant="primary">Learn more</Button>
                     </p>
                 </Jumbotron>
+                <Blurb description="Aside from creating web apps I enjoy teaching. Below are my pages on taching algorythims, web developmemnt. and my personal social media presence."></Blurb>
                 <Carousel></Carousel>
                 <Projects></Projects>
             </div>
